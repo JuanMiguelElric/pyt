@@ -12,7 +12,7 @@ print(f"Média: {soma / x:5.2f}")
 """
 
 ## simulação de uma fila 
-
+"""
 ultimo = 10
 fila = list(range(1,ultimo + 1))
 
@@ -38,3 +38,4 @@ while True:
 
         
 
+"""
