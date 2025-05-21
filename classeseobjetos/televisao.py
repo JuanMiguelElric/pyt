@@ -1,10 +1,12 @@
 class Televisao:
     def __init__(self):
         self.ligada = False
-        self.canal = 2
+    
+    def canal(self):
+        return 3
 
 
 t = Televisao()
-## está chamando a classe televisao 
 
-t.ligada ## irá retornar o valor da  função
+print(t.ligada)  # False
+print(t.canal()) # 3
